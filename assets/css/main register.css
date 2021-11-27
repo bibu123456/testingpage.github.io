@@ -1,0 +1,263 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+}
+.grid{
+
+}
+
+.header__navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+.header__navbar-list{
+    height:50px;
+    list-style: none;
+    
+}
+.header__navbar-list-help{
+    margin-right: 0;
+}
+
+.header__navbar-item{
+    display: inline-block;
+    
+}
+.header__navbar-item h1{
+    color:#f05e41;
+    margin-right: 8px;
+    font-size:3.2rem;
+}
+
+.header__navbar-item h2{
+    weight:50px;
+    font-weight: 400;
+    font-size:2.5rem;
+}
+
+.header__navbar-item h4{
+    margin-top:30px;
+    color:#f05e41;
+    font-size:1.6rem;
+   
+}
+
+.header__navbar-item-block{
+    width: 120px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.header__navbar-item-link{
+    text-decoration: none;
+}
+
+
+.container{
+    height:600px;
+    width: 100%;
+   background-color:#e4e5e9;
+   display: block;
+   align-items: center;
+  
+}
+.container__item{
+    height: 600px;
+    width: 1200px;
+    background-image: url(https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin-left: 80px;
+    margin-right:80px;
+    display:flex;
+    
+}
+.container__item-form{
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 450px;
+    margin:auto 10px auto auto ;
+  
+}
+
+.container__item-header{
+    display:block;
+    width: 100%;
+    height:80px;
+    margin-top:0;
+    background-color:white;
+    display:flex;
+}
+
+.container__item-header h2{
+    width: 100px;
+    height: 25px;
+    font-size:2.4rem;
+    font-weight:400;
+    align-items: center;
+    margin:30px auto 0px 30px ;
+
+}
+.container__item-layout{
+
+}
+.container__item-input{
+    display:block;
+    width: 100%;
+    background-color: white;
+}
+.container__item-input-group{
+    display: flex;
+}
+
+.container__item-input-text{
+    font-size: 1.6rem;
+    width:85%;
+    height: 30px;
+    margin: auto;
+    margin-bottom:10px;
+    border-radius: 3px;
+    border: 2px solid #efefef;
+}
+::placeholder{
+    color:#cacaca;
+    font-weight:300;
+}
+.container__item-button{
+    display: flex;
+   
+}
+.container__item-button-continue{
+    width: 85%;
+    height: 30px;
+    margin:auto;
+    margin-top: 10px;
+    background-color: #222025;
+    border-radius: 3px;
+    border:none;
+    cursor:pointer;
+    
+}
+.container__item-button-continue-link{
+    text-decoration: none;
+    color:#fdeeec;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container__item-or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container__item_{
+    border:0.1px solid #dbdbdb;
+    width: 130px;
+    height: 1px;
+    margin:20px 20px;
+    
+}
+.container__item-or-text{
+    font-size:1.43rem;
+    color:#dbdbdb;
+}
+.container__item-app{
+    width: 100%;
+    height:44px;
+    display:flex;
+    padding:0 20px;
+    
+}
+.container__item-app-button{
+    width: 110px;
+    height:38px;
+    justify-content: space-between;
+    flex:1;
+    margin:5px;
+    display:flex;
+    cursor: pointer;
+    border-radius: 2px;
+    border:0;
+    padding: 0;
+}
+
+.container__item-app-block{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-size: cover  ;
+    margin:auto;
+    justify-content: center;
+}
+
+.container__item-app-button-facebook{
+    background-color: #1877f2;
+    color:white;
+}
+
+.container__item-app-button-google{
+    background-color: #4285f4;
+    color:white;
+}
+
+
+.container__item-app-button-apple{
+    background-color: #000000;
+    color:white;
+    
+}
+
+.container__item-app-icon{
+    font-size: 2.4rem;
+    margin-right:12px;
+    
+}
+.container__item-app-link{
+    font-size:1.46rem;
+    
+}
+
+.container__item-account{
+    margin: 20px 0;
+}
+
+.container__item-account-text{
+    padding:0 20px;
+    font-size: 1.4rem;
+    text-align:center;
+    
+}
+
+.container__item-account-link{
+    text-decoration: none;
+    color:#f27a62;
+}
+
+.container__item-login{
+
+}
+
+.container__item-login-text{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.container__item-login-link{
+    text-decoration: none;
+    color:#ef5739;
+}
+
+
+.container__item-footer{
+
+}
+
